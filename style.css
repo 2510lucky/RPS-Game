@@ -1,0 +1,87 @@
+*{
+    margin:0;
+    padding:0;
+}
+header{
+    text-align: center;
+    padding: 15px 0;
+    font-family: sans-serif;
+    background-color: white;
+}
+body{
+    background-color:rgb(42, 38, 53) ;
+}
+.Scoreboard{
+    margin: 20px 500px 0 500px;
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    border: 10px solid green;
+    position: relative;
+}
+.userLabel{
+    position: absolute;
+    top: 20px;
+    left: -20px;
+    font-size: 15px;
+}
+.computerLabel{
+    position: absolute;
+    top: 20px;
+    right: -35px;
+    font-size: 15px;
+}
+.mutableText{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    padding:30px;
+}
+.chooseImg{
+    text-align: center;
+    padding: 20px 0;
+}
+.rockImg{
+    border-radius: 50%;
+    margin-right: 20px;
+    border: 10px solid black;
+}
+.paperImg{
+    border-radius: 50%;
+    margin-right: 20px;
+    border: 10px solid black;
+}
+.scissorImg{
+    border-radius: 50%;
+    border: 10px solid black;
+}
+.someOtherText{
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    margin-top: 15px;
+}
+.rockImg:hover{
+    cursor: pointer;
+    border-color: teal;
+}
+.paperImg:hover{
+    cursor: pointer;
+    border-color: teal;
+}
+.scissorImg:hover{
+    cursor: pointer;
+    border-color: teal;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
